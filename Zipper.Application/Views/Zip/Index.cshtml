@@ -1,0 +1,15 @@
+﻿@model Zipper.Application.Models.Zip.ZipFilesViewModel
+@{
+    ViewData["Title"] = "Zip";
+}
+
+
+<form method="post" enctype="multipart/form-data" >
+    <div class="row">
+        <div class="col col-md-3 form-group">
+            <label asp-for="Files"></label>
+            <input asp-for="Files" required />
+        </div>
+    </div>
+    <button type="submit" class="btn btn-sm btn-dark">Zip it</button>
+</form>

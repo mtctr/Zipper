@@ -5,9 +5,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using Zipper.App.Models;
+using Zipper.Application.Models;
 
-namespace Zipper.App.Controllers
+namespace Zipper.Application.Controllers
 {
     public class HomeController : Controller
     {
@@ -20,7 +20,7 @@ namespace Zipper.App.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return RedirectToAction(nameof(Index),"Zip");
         }
 
         public IActionResult Privacy()
