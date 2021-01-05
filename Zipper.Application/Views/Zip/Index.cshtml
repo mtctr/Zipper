@@ -1,16 +1,33 @@
 ﻿@model Zipper.Application.Models.Zip.ZipFilesViewModel
 @{
-    ViewData["Title"] = "Zip";
+    ViewData["Title"] = "Index";
 }
 
 
-<form method="post" enctype="multipart/form-data" >
-    <div class="row">
-        <div class="col col-md-3 form-group">
-            <label asp-for="Files"></label>
-            <input asp-for="Files" required />
-            <span asp-validation-for="Files" class="text-danger"></span>
-        </div>
+<div class="ui placeholder segment">
+    <div class="ui icon header">
+        <i class="file outline icon"></i>
     </div>
-    <button type="submit" class="btn btn-sm btn-dark">Zip it</button>
-</form>
+
+    <form method="post" enctype="multipart/form-data">
+        <div class="ui form error">
+            <div class="ui two column centered grid">
+                <div class="column">
+                    <div class="field">
+                        <label asp-for="Files"></label>
+                        <input asp-for="Files" class="file-input" required />
+                    </div>
+
+                    <span asp-validation-for="Files" class="ui error message"></span>
+
+                    <button type="submit" class="ui animated submit button secondary" tabindex="0">
+                        <div class="visible content">Zip it!</div>
+                        <div class="hidden content">
+                            <i class="right download icon"></i>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
