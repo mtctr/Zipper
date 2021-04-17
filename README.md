@@ -8,7 +8,7 @@ To use this, you have two possibilities:
 ### Main way
 Using the extension method below will return an IActionResult with your zipped file ready to download.
 
-```ZippedFileResult(this Controller controller, IEnumerable<IFormFile> files, string fileName = "")```
+```ZippedFileResult(this Controller controller, IEnumerable<IFormFile> files, string fileName = null)```
 
 [(see this example)](https://github.com/mtctr/Zipper/blob/main/Example/Zipper.Example/Controllers/ZipController.cs)
 
