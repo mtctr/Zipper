@@ -11,10 +11,10 @@
     <Description>Web file archiver using .Net 5</Description>
     <PackageProjectUrl>https://github.com/mtctr/Zipper</PackageProjectUrl>
     <RepositoryUrl>https://github.com/mtctr/Zipper</RepositoryUrl>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Zipper.Core\Zipper.Core.csproj" />
   </ItemGroup>
-
 </Project>

@@ -17,7 +17,7 @@ namespace Zipper.Example.Controllers
         {
             if (!ModelState.IsValid)
                 return View(viewModel);
-            
+
             return this.ZippedFileResult(viewModel.Files);
         }
     }
