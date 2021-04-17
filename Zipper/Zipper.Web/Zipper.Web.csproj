@@ -1,7 +1,16 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <PackageId>Zipper.Web</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <IsPackable>true</IsPackable>
+    <Authors>Mateus Targino</Authors>
+    <Company>Mateus Targino</Company>
+    <Product>Zipper</Product>
+    <Description>Web file archiver using .Net 5</Description>
+    <PackageProjectUrl>https://github.com/mtctr/Zipper</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/mtctr/Zipper</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>
