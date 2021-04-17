@@ -9,7 +9,7 @@ namespace Zipper.Web.Extensions
 {
     public static class ControllerExtensions
     {
-        public static IActionResult ZippedFileResult(this Controller controller, IEnumerable<IFormFile> files, string fileName = "")
+        public static IActionResult ZippedFileResult(this Controller controller, IEnumerable<IFormFile> files, string fileName = null)
         {
             var zipFileByteArray = Zip.GetZippedFileAsByteArray(files);
 
