@@ -10,7 +10,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Zipper.Web\Zipper.Web.csproj" />
+    <ProjectReference Include="..\..\Zipper\Zipper.Web\Zipper.Web.csproj" />
   </ItemGroup>
 
 </Project>
