@@ -5,9 +5,9 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
-using Zipper.Application.Models;
+using Zipper.Example.Models;
 
-namespace Zipper.Application.Controllers
+namespace Zipper.Example.Controllers
 {
     public class HomeController : Controller
     {

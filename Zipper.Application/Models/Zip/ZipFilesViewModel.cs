@@ -4,7 +4,7 @@ using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 
-namespace Zipper.Application.Models.Zip
+namespace Zipper.Example.Models.Zip
 {
     public class ZipFilesViewModel : IValidatableObject
     {

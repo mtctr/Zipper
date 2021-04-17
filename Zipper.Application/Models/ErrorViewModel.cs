@@ -1,6 +1,4 @@
-using System;
-
-namespace Zipper.Application.Models
+namespace Zipper.Example.Models
 {
     public class ErrorViewModel
     {
