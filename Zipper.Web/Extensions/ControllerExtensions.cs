@@ -16,6 +16,9 @@ namespace Zipper.Web.Extensions
             var responseType = MediaTypeNames.Application.Zip;
             fileName ??= $"Zipper_{Guid.NewGuid()}.zip";
 
+            if (!fileName.EndsWith(".zip"))
+                fileName += ".zip";
+
             controller.Response.Headers.Add("Content-Disposition", $"attachment; filename={fileName}");
             return controller.File(zipFileByteArray, responseType);
         }
