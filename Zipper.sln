@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zipper.Example", "Zipper.Application\Zipper.Example.csproj", "{B84E1E35-8CEB-47B3-9911-BB3AF6A2F25D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zipper.Example", "Example\Zipper.Example\Zipper.Example.csproj", "{B84E1E35-8CEB-47B3-9911-BB3AF6A2F25D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zipper.Core", "Zipper.Core\Zipper.Core.csproj", "{393FF758-6B4C-4F93-9DAC-3FC421EC943A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zipper.Core", "Zipper\Zipper.Core\Zipper.Core.csproj", "{393FF758-6B4C-4F93-9DAC-3FC421EC943A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zipper.Web", "Zipper.Web\Zipper.Web.csproj", "{F5FBBDD0-0D32-4FEE-8BD0-E52014DFC474}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zipper.Web", "Zipper\Zipper.Web\Zipper.Web.csproj", "{F5FBBDD0-0D32-4FEE-8BD0-E52014DFC474}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Zipper", "Zipper", "{8F7BE046-C6E8-488C-9225-457616837061}"
 EndProject
